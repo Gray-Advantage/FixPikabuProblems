@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+  "name": "Fix Pikabu Problems",
+  "version": "1.0",
+
+  "description": "Расширение, которое исправит проблемы Пикабу",
+
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+
+  "applications": {
+    "gecko": {
+      "id": "Fix_Pikabu_Problems@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+
+  "permissions": [
+    "activeTab",
+    "storage",
+    "*://*.pikabu.ru/*"
+  ],
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+    },
+    "default_popup": "settings_tab/settings.html"
+  },
+
+  "content_scripts": [
+    {
+      "js": [
+        "js/fixer.js"
+      ],
+      "matches": [
+        "*://*.pikabu.ru/*"
+      ]
+    }
+  ]
+}
