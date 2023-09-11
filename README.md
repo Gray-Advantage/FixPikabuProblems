@@ -14,7 +14,7 @@
 ## Как установить?
 
 Для начала нужно скачать расширение. Это можно сделать, нажав на зелёную кнопку "code" на [странице проекта](https://github.com/Gray-Advantage/FixPikabuProblems) (т.е. на этой странице)
-и выбрав самую последнюю кнопку ["Download ZIP"](https://github.com/Gray-Advantage/FixPikabuProblems/archive/refs/heads/master.zip)
+и выбрав самую последнюю кнопку ["Download ZIP"](https://github.com/Gray-Advantage/FixPikabuProblems/archive/refs/heads/master.zip). После скачивания, распакуйте архив.
 
 Для Firefox:
 1. Зайти на [about:debugging#/runtime/this-firefox](about:debugging#/runtime/this-firefox)
