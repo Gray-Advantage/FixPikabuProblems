@@ -22,6 +22,8 @@
 2. Нажать на “Загрузить временное дополнение...” и выберите manifest.json в папке расширения.
 3. Вы потрясающие!
 
+Также для firefox расширение уже доступно в [ADD-ONS](https://addons.mozilla.org/ru/firefox/addon/fix-pikabu-problems/)
+
 Для Chrome и прочих подобных (Yandex, Opera и др.):
 1. Зайти на [chrome://extensions](chrome://extensions)
 2. Включить режим разработчика, переключив переключатель в правом верхнем углу
